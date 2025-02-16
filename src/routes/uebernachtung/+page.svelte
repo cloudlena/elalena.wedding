@@ -93,7 +93,7 @@
 			ratingCount: 226
 		},
 		{
-			name: 'Hotel "Faxe" Schwarzwälder Hof Waldulm',
+			name: 'Hotel "Faxe" Schwarzwälder Hof',
 			image: faxe,
 			link: 'http://www.faxehof.de/',
 			googleMapsID: '6i5w2FHkAqSY5Ray6',
@@ -218,10 +218,10 @@
 	<div class="mb-24 grid gap-6 p-6 text-center text-3xl md:grid-cols-3 md:text-5xl">
 		{#each stays as stay}
 			<div class="max-w-sm overflow-hidden rounded bg-white shadow-lg">
-				<img class="mb-6 h-40 w-full object-cover" src={stay.image} alt={stay.name} />
+				<img class="mb-6 h-50 w-full object-cover" src={stay.image} alt={stay.name} />
 				<div class="px-6">
-					<div class="mb-4 min-h-14 text-xl font-bold">{stay.name}</div>
-					<p class="mb-4 text-base text-gray-700">
+					<div class="mb-4 min-h-18 text-2xl font-bold">{stay.name}</div>
+					<p class="mb-4 text-base text-xl text-gray-700">
 						<strong>↱ {stay.distanceMinutes} min</strong><br />
 						{stay.rating}
 						{'★'.repeat(Math.floor(stay.rating))}{'✭'.repeat(
@@ -229,7 +229,7 @@
 						)}{'☆'.repeat(5 - Math.round(stay.rating))}({stay.ratingCount})
 					</p>
 				</div>
-				<div class="flex px-6 pb-2">
+				<div class="flex px-6 py-2">
 					<a
 						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href={stay.link}

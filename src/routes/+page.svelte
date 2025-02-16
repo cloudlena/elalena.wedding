@@ -18,10 +18,10 @@
 			Du hast uns auf unserem Weg begleitet und bist uns wichtig. Wir laden Dich herzlich dazu ein,
 			unsere Liebe mit uns zu feiern.
 		</p>
-		<p class="mb-8">Am 20.9. 2025 heiraten wir auf dem Lebenshof "Mut Im Bauch" im Schwarzwald.</p>
+		<p class="mb-8">Am 20.9. 2025 heiraten wir auf dem Lebenshof "Mut im Bauch" im Schwarzwald.</p>
 		<p>
-			Erscheine so wie Du Dich wohlfühlst. Sei einfach Du selbst, mit all Deinen Farben und dem was
-			Dich ausmacht.
+			Erscheine so, wie Du Dich wohlfühlst. Sei einfach Du selbst, mit all Deinen Farben und dem,
+			was Dich ausmacht.
 		</p>
 	</div>
 
