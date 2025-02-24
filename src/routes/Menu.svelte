@@ -25,7 +25,7 @@
 		style="z-index:9998"
 	>
 		<ul class="my-8">
-			{#each entries as entry}
+			{#each entries as entry (entry.label)}
 				<li class="py-4">
 					<a
 						class="hover:text-green-600"
@@ -42,7 +42,7 @@
 
 <button class="cursor-pointer" onclick={toggleMenu}>
 	<div
-		class="text-middle fixed top-2 right-2 flex h-12 w-12 items-center justify-center rounded-full bg-amber-100 opacity-50 shadow-md hover:bg-amber-200 md:top-4 md:right-4"
+		class="text-middle fixed top-2 right-2 flex h-12 w-12 items-center justify-center rounded-full bg-white opacity-50 shadow-md hover:opacity-100 md:top-4 md:right-4"
 		style="z-index:9999"
 	>
 		<svg
