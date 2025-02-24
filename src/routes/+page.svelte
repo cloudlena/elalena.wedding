@@ -3,6 +3,7 @@
 	import Schedule from './Schedule.svelte';
 	import Venue from './Venue.svelte';
 	import RSVP from './RSVP.svelte';
+	import FAQ from './FAQ.svelte';
 </script>
 
 <img src={hero} alt="Ela, Lena und Rika" class="mb-20" />
@@ -30,4 +31,6 @@
 	<Venue />
 
 	<RSVP />
+
+	<FAQ />
 </div>
