@@ -73,7 +73,7 @@
 	</div>
 
 	<div class="mb-24 grid gap-6 p-6 text-center text-3xl md:grid-cols-3 md:text-5xl">
-		{#each gifts as gift}
+		{#each gifts as gift (gift.name)}
 			<div class="max-w-sm overflow-hidden rounded bg-white shadow-lg">
 				<img class="mb-6 h-54 w-full object-cover" src={gift.image} alt={gift.name} />
 				<div class="px-6">
