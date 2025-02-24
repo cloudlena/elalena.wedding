@@ -216,7 +216,7 @@
 	</div>
 
 	<div class="mb-24 grid gap-6 p-6 text-center text-3xl md:grid-cols-3 md:text-5xl">
-		{#each stays as stay}
+		{#each stays as stay (stay.name)}
 			<div class="max-w-sm overflow-hidden rounded bg-white shadow-lg">
 				<img class="mb-6 h-50 w-full object-cover" src={stay.image} alt={stay.name} />
 				<div class="px-6">
