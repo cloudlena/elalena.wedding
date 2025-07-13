@@ -9,7 +9,7 @@
 		<div>Brunch & Flammkuchen</div>
 		<!-- Roggen Sauerteig, Züpfe und Croissants. süss und herzhaft stickers "Recommended by Ela/Lena" -->
 
-		<div>13:30</div>
+		<div>14:00</div>
 		<div>Kleiner Spaziergang (ca. 30 min)</div>
 		<!-- 30min-45min -->
 

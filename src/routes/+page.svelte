@@ -2,7 +2,6 @@
 	import hero from '$lib/images/hero.jpg';
 	import Schedule from './Schedule.svelte';
 	import Venue from './Venue.svelte';
-	import RSVP from './RSVP.svelte';
 	import FAQ from './FAQ.svelte';
 </script>
 
@@ -29,8 +28,6 @@
 	<Schedule />
 
 	<Venue />
-
-	<RSVP />
 
 	<FAQ />
 </div>
