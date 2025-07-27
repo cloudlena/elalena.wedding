@@ -4,7 +4,6 @@
 
 <div class="mb-24 p-6 text-center text-2xl md:text-4xl">
 	<h2 class="mb-4 text-4xl md:text-7xl">Teilnahme</h2>
-	<p class="mb-12 text-xl text-gray-700 md:text-2xl">Bitte bis Ende März ausfüllen!</p>
 
 	<form class="mx-auto max-w-sm" action="https://formspree.io/f/mdkaawwe" method="POST">
 		<div class="mb-4">
