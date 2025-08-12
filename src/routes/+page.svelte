@@ -1,9 +1,8 @@
 <script lang="ts">
-	import hero from '$lib/images/hero.jpg';
 	import Schedule from './Schedule.svelte';
 	import Venue from './Venue.svelte';
-	import RSVP from './RSVP.svelte';
 	import FAQ from './FAQ.svelte';
+	import hero from '$lib/images/hero.jpg';
 </script>
 
 <img src={hero} alt="Ela, Lena und Rika" class="mb-20" />
@@ -29,8 +28,6 @@
 	<Schedule />
 
 	<Venue />
-
-	<RSVP />
 
 	<FAQ />
 </div>
