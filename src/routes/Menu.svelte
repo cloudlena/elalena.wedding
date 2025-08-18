@@ -9,7 +9,7 @@
 
 	const entries: Entry[] = [
 		{ label: 'Home', link: '/' },
-		{ label: 'Übernachtungen', link: '/uebernachtung' },
+		{ label: 'Übernachtung', link: '/uebernachtung' },
 		{ label: 'Bilder', link: 'https://drive.proton.me/urls/JAGS81P848#uEJB1UxamSty', newTab: true },
 		{ label: 'Geschenke', link: '/geschenke' }
 	];

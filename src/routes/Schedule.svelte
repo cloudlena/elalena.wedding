@@ -22,7 +22,7 @@
 		<!-- Kleinere Torte und Kuchenbuffet -->
 
 		<div>ab 18:00</div>
-		<div>Marroni, warmer Apfelsaft und Spiele</div>
+		<div>Suppe, warmer Apfelsaft und Spiele</div>
 		<!-- Kürzere, soziale Brettspiele -->
 	</div>
 </div>

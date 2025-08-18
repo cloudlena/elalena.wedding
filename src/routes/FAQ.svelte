@@ -8,34 +8,67 @@
 
 	const items: FAQItem[] = [
 		{
+			question: 'Wie reise ich mit den öffentlichen Verkehrsmitteln an?',
+			answer:
+				'Die nächste Haltestelle ist "Bahnhof Furschenbach". Von da geht ihr ca. 20 min auf einer geteerten Strasse den Berg hoch zur Location. Du würdest abends gerne länger bleiben, weisst aber noch nicht, wie Du wieder ins Hotel zurückkommst? Melde Dich bitte frühzeitig bei uns, damit wir einen Shuttle-Dienst organisieren können.',
+			link: 'https://www.bwegt.de/fahrplanauskunft/trip?formik=destination%3Dde%253A08317%253A13753%26itdDateDayMonthYear%3D20092025%26itdTime%3D1040%26itdTripDateTimeDepArr%3Darr%26origin%3Dde%253A08317%253A33013&lng=de&trip=multiModalitySelected%3Dpt',
+			isOpen: false
+		},
+		{
+			question: 'Wie reise ich mit dem Auto an?',
+			answer:
+				'Du kannst direkt mit dem Auto zur Location fahren. Beim Lebenshof gibt es genügend Parkplätze. Die Adresse ist "Am Bach 17 in 77883 Ottenhöfen".',
+			link: 'https://maps.app.goo.gl/rtY99UwVGsZbJRHF9',
+			isOpen: false
+		},
+		{
+			question: 'Hat jemand noch Platz im Auto? Kann ich noch wen mitnehmen?',
+			answer:
+				'Es gibt eine Signal-Gruppe für Ridesharing. Wenn Du noch freie Plätze im Auto hast oder eine Mitfahrgelegenheit suchst, lade die Signal-App herunter, klicke den Link unten und schreibe eine Nachricht in die Gruppe.',
+			link: 'https://signal.group/#CjQKIGVXIaBUBmvXV2rG6Ivtu-SQZDBtVoP8loZy-pqh6AAHEhBeQJohAYrSwKUHdXST38S7',
+			isOpen: false
+		},
+		{
+			question: 'Wie weit ist der Spaziergang?',
+			answer:
+				'Der Spaziergang ist ca. 1,6 km und hat eine leichte Steigung, ist aber grösstenteils eben (teils geteert, teils gut gepflegter Waldweg). Bitte bringt gutes Schuhwerk mit.',
+			isOpen: false
+		},
+		{
+			question: 'Was kann ich mitbringen?',
+			answer:
+				'Wir werden eine vegane Hochzeitstorte und ein veganes Kuchenbuffet haben. Wir freuen uns, wenn Leute vegane Kuchen mitbringen. Gib uns gerne per Signal oder E-Mail Bescheid, wenn Du einen mitbringst.',
+			isOpen: false
+		},
+		{
+			question: 'Wie kann ich mitmachen?',
+			answer:
+				'Wir planen bei unserer Zeremonie mit Bändern einen Knoten um unsere Hände zu machen, um unsere Verbindung zu symbolisieren. Es würde uns freuen, von ein paar Leuten ein Band dafür zu bekommen. Falls Du dazu etwas beisteuern möchtest, gestalte ein Band oder eine Kordel (ca. 1 m lang) und bringe es zur Hochzeit mit. Während des Brunchs habt ihr auch die Möglichkeit, vor Ort eines zu gestalten.',
+			link: 'https://www.youtube.com/shorts/A6JDU8qO48Q',
+			isOpen: false
+		},
+		{
+			question: 'Wo kann ich übernachten?',
+			answer:
+				'Wir haben eine Liste mit empfohlenen Übernachtungsmöglichkeiten auf unserer Website unter "Übernachtung". Bitte buche frühzeitig.',
+			link: '/uebernachtung',
+			isOpen: false
+		},
+		{
 			question: 'Was wünscht Ihr Euch?',
 			answer: 'Du findest unsere Geschenkliste auf der Website unter "Geschenke".',
 			link: '/geschenke',
 			isOpen: false
 		},
 		{
-			question: 'Wo kann ich parken?',
-			answer: 'Beim Lebenshof gibt es 25 Parkplätze.',
-			isOpen: false
-		},
-		{
-			question: 'Wie komme ich da hoch?',
-			answer: 'Es ist ein schöner kurzer Spaziergang.',
-			isOpen: false
-		},
-		{
-			question: 'Wie komme ich wieder runter?',
-			answer: 'Wir haben einen Shuttle-Service, der Dich abends hinunterbringt.',
-			isOpen: false
-		},
-		{
-			question: 'Wie lange dauert es?',
+			question: 'Wie lange dauert die Hochzeit?',
 			answer: 'Die Veranstaltung ist open-end. Bleib so lange Du Lust und Spass hast.',
 			isOpen: false
 		},
 		{
 			question: 'Kann mein Hund mitkommen?',
-			answer: 'Ja. Rika wird auch da sein, aber es gibt genug Platz.',
+			answer:
+				'Ja. Rika wird auch da sein, aber es gibt genug Platz. Auf dem Hof gibt es viele freilaufende Hühner. Wenn Du nicht weisst, wie Dein Hund reagieren wird, bringe bitte einen Maulkorb mit.',
 			isOpen: false
 		}
 	];
